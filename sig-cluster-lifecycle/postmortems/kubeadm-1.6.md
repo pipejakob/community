@@ -126,6 +126,8 @@ initialize a new cluster with the 1.6.0 release
 
 **Timeline**
 
+All times are in 24-hour PST8PDT.
+
 **2017/02/24**
 
 > 06:00 fejta changes e2e-runner.sh
