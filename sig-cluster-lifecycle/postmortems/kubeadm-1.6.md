@@ -7,7 +7,7 @@ Kubernetes Postmortem: kubeadm 1.6.0 release
 
 **Collaborators:** Joe Beda (@jbeda), Mike Danese (@mikedanese), Robert Bailey (@roberthbailey)
 
-**Status:** \[draft | **pending feedback** | final\]
+**Status:** \[draft | pending feedback | **final**\]
 
 **Summary:** kubeadm 1.6.0 consistently hangs while trying to initialize new clusters. A fix required creating the 1.6.1 patch release six days after 1.6.0.
 
@@ -94,7 +94,7 @@ Kubernetes Postmortem: kubeadm 1.6.0 release
 
 > 13:11 pipejakob fixes kubeadm e2e job configuration (which was pushed at some point after spxtr’s prow configuration refactoring) ([*test-infra\#2246*](https://github.com/kubernetes/test-infra/pull/2246))
 
-**2017/03/16 **
+**2017/03/16**
 
 > 11:23 bboreham fixes the weave-net CNI provider ([*weave\#2850*](https://github.com/weaveworks/weave/pull/2850)) to account for “CNI unknown pod deletion” change
 >
